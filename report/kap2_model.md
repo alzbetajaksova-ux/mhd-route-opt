@@ -41,7 +41,7 @@ neuvažujú. Pešia vzdialenosť sa neodvodzuje z uličnej siete, ale z koeficie
 zachádzky. Ak spoj zastavuje na tej istej zastávke viackrát (okružné linky), použije
 sa jej posledný výskyt.
 
-**Overenie a rýchlosť.** Model je overený 32 unit testami na ručne navrhnutej sieti
+**Overenie a rýchlosť.** Model je overený 34 unit testami na ručne navrhnutej sieti
 (9 zastávok, 4 linky) s ručne vypočítanými hodnotami f a g pre 16 scenárov (priama
 trasa, prestup bez chôdze aj s chôdzou, iba pešo, porušenia O1 – O6, výnimka v
 kalendári, spoj po polnoci). Na reálnych dátach (Python 3.15, pandas 3.1,

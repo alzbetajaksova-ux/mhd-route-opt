@@ -230,6 +230,10 @@ class CestovnyPoriadok:
         """Zoznam všetkých stop_id."""
         return list(self._suradnice)
 
+    def je_zastavka(self, stop_id: str) -> bool:
+        """True, ak stop_id existuje v stops.txt."""
+        return stop_id in self._suradnice
+
     def suradnice(self, stop_id: str) -> tuple[float, float]:
         """Súradnice zastávky (lat, lon) v stupňoch."""
         return self._suradnice[stop_id]

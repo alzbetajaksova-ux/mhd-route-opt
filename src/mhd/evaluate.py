@@ -75,6 +75,11 @@ class Hodnotitel:
         predosla: str | None = None  # posledná výstupná zastávka
 
         for i, u in enumerate(useky):
+            # neznáma zastávka (napr. chybný operátor) -> nedekódovateľný, nie výnimka
+            if not cp.je_zastavka(u.nastup) or not cp.je_zastavka(u.vystup):
+                porusenia.append("O2")
+                return Hodnotenie(itinerar, t - t0, prestupy, chodza_m, INF, INF,
+                                  False, False, porusenia)
             # chôdza na nástupnú zastávku
             if predosla is None:
                 d, s = self._chodza(p.start, cp.suradnice(u.nastup))
