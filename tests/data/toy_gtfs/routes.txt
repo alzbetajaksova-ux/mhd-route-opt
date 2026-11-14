@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_type
+1,01,1,Hlavná stanica - Trnavské mýto,0
+2,01,2,Račianske mýto - Most SNP,0
+3,01,3,Hodžovo nám. - Hlavná stanica,3
+4,01,4,Trnavské mýto - Americké nám. (iba sobota),3
