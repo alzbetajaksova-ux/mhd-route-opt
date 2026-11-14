@@ -11,7 +11,9 @@ výnimiek z `calendar_dates.txt` (1 = pridaná, 2 = zrušená) a kešujú sa pod
 Pri načítaní sa vytvoria indexy: pre dvojicu (linka, zastávka) zoradený zoznam
 odchodov (čas, spoj, poradie zastávky), pre spoj slovník zastávka → (poradie,
 príchod) a pre (linka, zastávka) a službu množina zastávok za ňou v smere jazdy.
-Hotové indexy sa uložia do `data/cache/` (pickle).
+Hotové indexy sa uložia do `data/cache/` (pickle). Zastávky v okolí bodu (do d_max
+od štartu a cieľa) hľadá priestorový index `PriestorovyIndex` (BallTree s
+haversinovou metrikou zo scikit-learn).
 
 **Dekóder.** Kandidát je zoznam úsekov (linka, nástup, výstup). `Hodnotitel.ohodnot`
 (`src/mhd/evaluate.py`) postupne pripočíta chôdzu zo štartu na prvú nástupnú zastávku,
@@ -39,10 +41,11 @@ neuvažujú. Pešia vzdialenosť sa neodvodzuje z uličnej siete, ale z koeficie
 zachádzky. Ak spoj zastavuje na tej istej zastávke viackrát (okružné linky), použije
 sa jej posledný výskyt.
 
-**Overenie a rýchlosť.** Model je overený 30 unit testami na ručne navrhnutej sieti
+**Overenie a rýchlosť.** Model je overený 32 unit testami na ručne navrhnutej sieti
 (9 zastávok, 4 linky) s ručne vypočítanými hodnotami f a g pre 16 scenárov (priama
 trasa, prestup bez chôdze aj s chôdzou, iba pešo, porušenia O1 – O6, výnimka v
 kalendári, spoj po polnoci). Na reálnych dátach (Python 3.15, pandas 3.1,
 notebook s procesorom Intel 11. generácie) trvá načítanie z CSV 3,7 – 4,4 s (prvé spustenie 7,7 s), z cache 0,3 s; jedno
 vyhodnotenie kandidáta s dvoma úsekmi trvá v priemere 12 µs (10 000 opakovaní),
-jedno vyhľadanie najbližšieho odchodu približne 5 µs.
+jedno vyhľadanie najbližšieho odchodu približne 5 µs a hľadanie zastávok do 800 m
+od bodu približne 140 µs.

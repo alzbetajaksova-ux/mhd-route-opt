@@ -6,13 +6,11 @@ ohodnotí jednu ručne zadanú trasu a zmeria čas jedného vyhodnotenia.
 Spustenie:  python scripts/check_model.py
 """
 
-import math
 import sys
 import time
 from datetime import date
 from pathlib import Path
 
-from mhd import geo
 from mhd.evaluate import Hodnotitel
 from mhd.gtfs import CestovnyPoriadok
 from mhd.model import Kandidat, Poziadavka, Usek
@@ -21,32 +19,11 @@ from mhd.params import Parametre
 GTFS = Path(__file__).resolve().parent.parent / "data" / "gtfs"
 
 
-def _docasne_geo() -> None:
-    """Ak geo.py (osoba B) ešte nie je hotové, použije dočasnú náhradu."""
-    try:
-        geo.pesia_vzdialenost_m((48.0, 17.0), (48.0, 17.0), Parametre())
-        return
-    except NotImplementedError:
-        pass
-
-    def pesia(a, b, par):
-        f1, f2 = math.radians(a[0]), math.radians(b[0])
-        dl = math.radians(b[1] - a[1])
-        x = math.sin((f2 - f1) / 2) ** 2 + math.cos(f1) * math.cos(f2) * math.sin(dl / 2) ** 2
-        return 2 * 6_371_000.0 * math.asin(math.sqrt(x)) * par.zachadzka
-
-    geo.pesia_vzdialenost_m = pesia
-    geo.cas_chodze_s = lambda d, par: math.ceil(d / par.rychlost_chodze)
-    print("POZOR: geo.py ešte nie je implementované – použitá dočasná náhrada.\n")
-
-
 def hhmmss(s: int) -> str:
     return f"{s // 3600:02d}:{s % 3600 // 60:02d}:{s % 60:02d}"
 
 
 def main() -> int:
-    _docasne_geo()
-
     t = time.perf_counter()
     cp = CestovnyPoriadok.nacitaj(str(GTFS))
     cas_nacitania = time.perf_counter() - t
