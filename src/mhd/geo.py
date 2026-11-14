@@ -1,9 +1,28 @@
 """Geometria: pešia vzdialenosť a čas chôdze.
 
-Implementuje osoba B. V kostre sú iba hlavičky.
+Implementuje osoba A (po dohode prevzaté od osoby B).
+Pešia vzdialenosť = haversinova vzdialenosť (R = 6 371 000 m) · zachadzka.
 """
 
+import math
+
 from mhd.params import Parametre
+
+POLOMER_ZEME_M = 6_371_000.0
+
+
+def haversine_m(a: tuple[float, float], b: tuple[float, float]) -> float:
+    """Vzdušná (haversinova) vzdialenosť bodov a, b [m].
+
+    Args:
+        a: bod (lat, lon) v stupňoch.
+        b: bod (lat, lon) v stupňoch.
+    """
+    f1, f2 = math.radians(a[0]), math.radians(b[0])
+    df = f2 - f1
+    dl = math.radians(b[1] - a[1])
+    x = math.sin(df / 2) ** 2 + math.cos(f1) * math.cos(f2) * math.sin(dl / 2) ** 2
+    return 2 * POLOMER_ZEME_M * math.asin(math.sqrt(min(1.0, x)))
 
 
 def pesia_vzdialenost_m(
@@ -21,7 +40,7 @@ def pesia_vzdialenost_m(
     Returns:
         Vzdialenosť v metroch.
     """
-    raise NotImplementedError
+    return haversine_m(a, b) * par.zachadzka
 
 
 def cas_chodze_s(vzdialenost_m: float, par: Parametre) -> int:
@@ -34,4 +53,4 @@ def cas_chodze_s(vzdialenost_m: float, par: Parametre) -> int:
     Returns:
         ceil(vzdialenost_m / par.rychlost_chodze) v sekundách.
     """
-    raise NotImplementedError
+    return math.ceil(vzdialenost_m / par.rychlost_chodze)
