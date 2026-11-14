@@ -1,0 +1,16 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+
+# predspracované indexy GTFS (pickle) – generujú sa lokálne
+data/cache/*
+!data/cache/.gitkeep
+
+.vscode/
+.idea/
+~$*
