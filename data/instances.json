@@ -1,0 +1,1746 @@
+{
+  "seed": 42,
+  "pocet": 60,
+  "instancie": [
+    {
+      "id": "K01-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.17473,
+        17.098692
+      ],
+      "ciel": [
+        48.162787,
+        17.091759
+      ],
+      "vzdusna_vzdialenost_m": 1424.1,
+      "start_najblizsia": {
+        "stop_id": "000000071900002",
+        "nazov": "Koliba P+R",
+        "pesia_vzdialenost_m": 202.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010600001",
+        "nazov": "Hroboňova",
+        "pesia_vzdialenost_m": 40.7
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 23
+    },
+    {
+      "id": "K01-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.17473,
+        17.098692
+      ],
+      "ciel": [
+        48.162787,
+        17.091759
+      ],
+      "vzdusna_vzdialenost_m": 1424.1,
+      "start_najblizsia": {
+        "stop_id": "000000071900002",
+        "nazov": "Koliba P+R",
+        "pesia_vzdialenost_m": 202.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010600001",
+        "nazov": "Hroboňova",
+        "pesia_vzdialenost_m": 40.7
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 23
+    },
+    {
+      "id": "K01-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.17473,
+        17.098692
+      ],
+      "ciel": [
+        48.162787,
+        17.091759
+      ],
+      "vzdusna_vzdialenost_m": 1424.1,
+      "start_najblizsia": {
+        "stop_id": "000000071900002",
+        "nazov": "Koliba P+R",
+        "pesia_vzdialenost_m": 202.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010600001",
+        "nazov": "Hroboňova",
+        "pesia_vzdialenost_m": 40.7
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 23
+    },
+    {
+      "id": "K02-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.142255,
+        17.11927
+      ],
+      "ciel": [
+        48.153383,
+        17.114894
+      ],
+      "vzdusna_vzdialenost_m": 1279.3,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 58.9
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000042200002",
+        "nazov": "STU",
+        "pesia_vzdialenost_m": 148.3
+      },
+      "start_zastavok_do_d_max": 25,
+      "ciel_zastavok_do_d_max": 37
+    },
+    {
+      "id": "K02-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.142255,
+        17.11927
+      ],
+      "ciel": [
+        48.153383,
+        17.114894
+      ],
+      "vzdusna_vzdialenost_m": 1279.3,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 58.9
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000042200002",
+        "nazov": "STU",
+        "pesia_vzdialenost_m": 148.3
+      },
+      "start_zastavok_do_d_max": 25,
+      "ciel_zastavok_do_d_max": 37
+    },
+    {
+      "id": "K02-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.142255,
+        17.11927
+      ],
+      "ciel": [
+        48.153383,
+        17.114894
+      ],
+      "vzdusna_vzdialenost_m": 1279.3,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 58.9
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000042200002",
+        "nazov": "STU",
+        "pesia_vzdialenost_m": 148.3
+      },
+      "start_zastavok_do_d_max": 25,
+      "ciel_zastavok_do_d_max": 37
+    },
+    {
+      "id": "K03-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.143606,
+        17.119188
+      ],
+      "ciel": [
+        48.132932,
+        17.107707
+      ],
+      "vzdusna_vzdialenost_m": 1461.0,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 253.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000039000002",
+        "nazov": "OC Einsteinova",
+        "pesia_vzdialenost_m": 122.4
+      },
+      "start_zastavok_do_d_max": 33,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "K03-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.143606,
+        17.119188
+      ],
+      "ciel": [
+        48.132932,
+        17.107707
+      ],
+      "vzdusna_vzdialenost_m": 1461.0,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 253.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000039000002",
+        "nazov": "OC Einsteinova",
+        "pesia_vzdialenost_m": 122.4
+      },
+      "start_zastavok_do_d_max": 33,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "K03-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.143606,
+        17.119188
+      ],
+      "ciel": [
+        48.132932,
+        17.107707
+      ],
+      "vzdusna_vzdialenost_m": 1461.0,
+      "start_najblizsia": {
+        "stop_id": "000000020800001",
+        "nazov": "Malá scéna",
+        "pesia_vzdialenost_m": 253.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000039000002",
+        "nazov": "OC Einsteinova",
+        "pesia_vzdialenost_m": 122.4
+      },
+      "start_zastavok_do_d_max": 33,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "K04-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.134809,
+        17.095235
+      ],
+      "ciel": [
+        48.146987,
+        17.066048
+      ],
+      "vzdusna_vzdialenost_m": 2554.2,
+      "start_najblizsia": {
+        "stop_id": "000000007600002",
+        "nazov": "Einsteinova",
+        "pesia_vzdialenost_m": 502.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023000009",
+        "nazov": "Riviéra",
+        "pesia_vzdialenost_m": 236.2
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 13
+    },
+    {
+      "id": "K04-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.134809,
+        17.095235
+      ],
+      "ciel": [
+        48.146987,
+        17.066048
+      ],
+      "vzdusna_vzdialenost_m": 2554.2,
+      "start_najblizsia": {
+        "stop_id": "000000007600002",
+        "nazov": "Einsteinova",
+        "pesia_vzdialenost_m": 502.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023000009",
+        "nazov": "Riviéra",
+        "pesia_vzdialenost_m": 236.2
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 13
+    },
+    {
+      "id": "K04-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.134809,
+        17.095235
+      ],
+      "ciel": [
+        48.146987,
+        17.066048
+      ],
+      "vzdusna_vzdialenost_m": 2554.2,
+      "start_najblizsia": {
+        "stop_id": "000000007600002",
+        "nazov": "Einsteinova",
+        "pesia_vzdialenost_m": 502.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023000009",
+        "nazov": "Riviéra",
+        "pesia_vzdialenost_m": 236.2
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 13
+    },
+    {
+      "id": "K05-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.148322,
+        17.186116
+      ],
+      "ciel": [
+        48.150312,
+        17.160504
+      ],
+      "vzdusna_vzdialenost_m": 1913.0,
+      "start_najblizsia": {
+        "stop_id": "000000033800001",
+        "nazov": "Ríbezľová",
+        "pesia_vzdialenost_m": 182.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010400002",
+        "nazov": "Hraničná",
+        "pesia_vzdialenost_m": 125.4
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 19
+    },
+    {
+      "id": "K05-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.148322,
+        17.186116
+      ],
+      "ciel": [
+        48.150312,
+        17.160504
+      ],
+      "vzdusna_vzdialenost_m": 1913.0,
+      "start_najblizsia": {
+        "stop_id": "000000033800001",
+        "nazov": "Ríbezľová",
+        "pesia_vzdialenost_m": 182.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010400002",
+        "nazov": "Hraničná",
+        "pesia_vzdialenost_m": 125.4
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 19
+    },
+    {
+      "id": "K05-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.148322,
+        17.186116
+      ],
+      "ciel": [
+        48.150312,
+        17.160504
+      ],
+      "vzdusna_vzdialenost_m": 1913.0,
+      "start_najblizsia": {
+        "stop_id": "000000033800001",
+        "nazov": "Ríbezľová",
+        "pesia_vzdialenost_m": 182.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000010400002",
+        "nazov": "Hraničná",
+        "pesia_vzdialenost_m": 125.4
+      },
+      "start_zastavok_do_d_max": 7,
+      "ciel_zastavok_do_d_max": 19
+    },
+    {
+      "id": "K06-ut0730",
+      "skupina": "K",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.218147,
+        16.993827
+      ],
+      "ciel": [
+        48.204162,
+        17.009489
+      ],
+      "vzdusna_vzdialenost_m": 1940.4,
+      "start_najblizsia": {
+        "stop_id": "000000037000002",
+        "nazov": "Mláka",
+        "pesia_vzdialenost_m": 277.6
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000017400001",
+        "nazov": "Krpáš",
+        "pesia_vzdialenost_m": 215.8
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "K06-ut1300",
+      "skupina": "K",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.218147,
+        16.993827
+      ],
+      "ciel": [
+        48.204162,
+        17.009489
+      ],
+      "vzdusna_vzdialenost_m": 1940.4,
+      "start_najblizsia": {
+        "stop_id": "000000037000002",
+        "nazov": "Mláka",
+        "pesia_vzdialenost_m": 277.6
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000017400001",
+        "nazov": "Krpáš",
+        "pesia_vzdialenost_m": 215.8
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "K06-so2200",
+      "skupina": "K",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.218147,
+        16.993827
+      ],
+      "ciel": [
+        48.204162,
+        17.009489
+      ],
+      "vzdusna_vzdialenost_m": 1940.4,
+      "start_najblizsia": {
+        "stop_id": "000000037000002",
+        "nazov": "Mláka",
+        "pesia_vzdialenost_m": 277.6
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000017400001",
+        "nazov": "Krpáš",
+        "pesia_vzdialenost_m": 215.8
+      },
+      "start_zastavok_do_d_max": 2,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "S01-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.204694,
+        17.150183
+      ],
+      "ciel": [
+        48.166745,
+        17.136924
+      ],
+      "vzdusna_vzdialenost_m": 4332.7,
+      "start_najblizsia": {
+        "stop_id": "000000002500001",
+        "nazov": "Bukovinská",
+        "pesia_vzdialenost_m": 150.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000025700003",
+        "nazov": "Nová doba",
+        "pesia_vzdialenost_m": 195.1
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 15
+    },
+    {
+      "id": "S01-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.204694,
+        17.150183
+      ],
+      "ciel": [
+        48.166745,
+        17.136924
+      ],
+      "vzdusna_vzdialenost_m": 4332.7,
+      "start_najblizsia": {
+        "stop_id": "000000002500001",
+        "nazov": "Bukovinská",
+        "pesia_vzdialenost_m": 150.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000025700003",
+        "nazov": "Nová doba",
+        "pesia_vzdialenost_m": 195.1
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 15
+    },
+    {
+      "id": "S01-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.204694,
+        17.150183
+      ],
+      "ciel": [
+        48.166745,
+        17.136924
+      ],
+      "vzdusna_vzdialenost_m": 4332.7,
+      "start_najblizsia": {
+        "stop_id": "000000002500001",
+        "nazov": "Bukovinská",
+        "pesia_vzdialenost_m": 150.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000025700003",
+        "nazov": "Nová doba",
+        "pesia_vzdialenost_m": 195.1
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 15
+    },
+    {
+      "id": "S02-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.176166,
+        17.12852
+      ],
+      "ciel": [
+        48.152346,
+        17.102991
+      ],
+      "vzdusna_vzdialenost_m": 3255.8,
+      "start_najblizsia": {
+        "stop_id": "000000022400003",
+        "nazov": "Mladá garda",
+        "pesia_vzdialenost_m": 128.0
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056500002",
+        "nazov": "Mišíkova",
+        "pesia_vzdialenost_m": 105.8
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 31
+    },
+    {
+      "id": "S02-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.176166,
+        17.12852
+      ],
+      "ciel": [
+        48.152346,
+        17.102991
+      ],
+      "vzdusna_vzdialenost_m": 3255.8,
+      "start_najblizsia": {
+        "stop_id": "000000022400003",
+        "nazov": "Mladá garda",
+        "pesia_vzdialenost_m": 128.0
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056500002",
+        "nazov": "Mišíkova",
+        "pesia_vzdialenost_m": 105.8
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 31
+    },
+    {
+      "id": "S02-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.176166,
+        17.12852
+      ],
+      "ciel": [
+        48.152346,
+        17.102991
+      ],
+      "vzdusna_vzdialenost_m": 3255.8,
+      "start_najblizsia": {
+        "stop_id": "000000022400003",
+        "nazov": "Mladá garda",
+        "pesia_vzdialenost_m": 128.0
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056500002",
+        "nazov": "Mišíkova",
+        "pesia_vzdialenost_m": 105.8
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 31
+    },
+    {
+      "id": "S03-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.194924,
+        17.033884
+      ],
+      "ciel": [
+        48.210959,
+        16.981512
+      ],
+      "vzdusna_vzdialenost_m": 4271.3,
+      "start_najblizsia": {
+        "stop_id": "000000031000002",
+        "nazov": "Pri kríži",
+        "pesia_vzdialenost_m": 17.1
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023600001",
+        "nazov": "Na Grbe",
+        "pesia_vzdialenost_m": 477.4
+      },
+      "start_zastavok_do_d_max": 18,
+      "ciel_zastavok_do_d_max": 11
+    },
+    {
+      "id": "S03-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.194924,
+        17.033884
+      ],
+      "ciel": [
+        48.210959,
+        16.981512
+      ],
+      "vzdusna_vzdialenost_m": 4271.3,
+      "start_najblizsia": {
+        "stop_id": "000000031000002",
+        "nazov": "Pri kríži",
+        "pesia_vzdialenost_m": 17.1
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023600001",
+        "nazov": "Na Grbe",
+        "pesia_vzdialenost_m": 477.4
+      },
+      "start_zastavok_do_d_max": 18,
+      "ciel_zastavok_do_d_max": 11
+    },
+    {
+      "id": "S03-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.194924,
+        17.033884
+      ],
+      "ciel": [
+        48.210959,
+        16.981512
+      ],
+      "vzdusna_vzdialenost_m": 4271.3,
+      "start_najblizsia": {
+        "stop_id": "000000031000002",
+        "nazov": "Pri kríži",
+        "pesia_vzdialenost_m": 17.1
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023600001",
+        "nazov": "Na Grbe",
+        "pesia_vzdialenost_m": 477.4
+      },
+      "start_zastavok_do_d_max": 18,
+      "ciel_zastavok_do_d_max": 11
+    },
+    {
+      "id": "S04-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.154298,
+        17.128706
+      ],
+      "ciel": [
+        48.127066,
+        17.164224
+      ],
+      "vzdusna_vzdialenost_m": 4014.3,
+      "start_najblizsia": {
+        "stop_id": "000000017900001",
+        "nazov": "Kvačalova",
+        "pesia_vzdialenost_m": 75.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000036300001",
+        "nazov": "Zajačie",
+        "pesia_vzdialenost_m": 296.4
+      },
+      "start_zastavok_do_d_max": 31,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "S04-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.154298,
+        17.128706
+      ],
+      "ciel": [
+        48.127066,
+        17.164224
+      ],
+      "vzdusna_vzdialenost_m": 4014.3,
+      "start_najblizsia": {
+        "stop_id": "000000017900001",
+        "nazov": "Kvačalova",
+        "pesia_vzdialenost_m": 75.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000036300001",
+        "nazov": "Zajačie",
+        "pesia_vzdialenost_m": 296.4
+      },
+      "start_zastavok_do_d_max": 31,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "S04-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.154298,
+        17.128706
+      ],
+      "ciel": [
+        48.127066,
+        17.164224
+      ],
+      "vzdusna_vzdialenost_m": 4014.3,
+      "start_najblizsia": {
+        "stop_id": "000000017900001",
+        "nazov": "Kvačalova",
+        "pesia_vzdialenost_m": 75.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000036300001",
+        "nazov": "Zajačie",
+        "pesia_vzdialenost_m": 296.4
+      },
+      "start_zastavok_do_d_max": 31,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "S05-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.149972,
+        17.10686
+      ],
+      "ciel": [
+        48.197975,
+        17.163989
+      ],
+      "vzdusna_vzdialenost_m": 6814.5,
+      "start_najblizsia": {
+        "stop_id": "000000009500003",
+        "nazov": "Hodžovo nám.",
+        "pesia_vzdialenost_m": 139.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000019500002",
+        "nazov": "Železničné múzeum",
+        "pesia_vzdialenost_m": 243.7
+      },
+      "start_zastavok_do_d_max": 35,
+      "ciel_zastavok_do_d_max": 12
+    },
+    {
+      "id": "S05-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.149972,
+        17.10686
+      ],
+      "ciel": [
+        48.197975,
+        17.163989
+      ],
+      "vzdusna_vzdialenost_m": 6814.5,
+      "start_najblizsia": {
+        "stop_id": "000000009500003",
+        "nazov": "Hodžovo nám.",
+        "pesia_vzdialenost_m": 139.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000019500002",
+        "nazov": "Železničné múzeum",
+        "pesia_vzdialenost_m": 243.7
+      },
+      "start_zastavok_do_d_max": 35,
+      "ciel_zastavok_do_d_max": 12
+    },
+    {
+      "id": "S05-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.149972,
+        17.10686
+      ],
+      "ciel": [
+        48.197975,
+        17.163989
+      ],
+      "vzdusna_vzdialenost_m": 6814.5,
+      "start_najblizsia": {
+        "stop_id": "000000009500003",
+        "nazov": "Hodžovo nám.",
+        "pesia_vzdialenost_m": 139.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000019500002",
+        "nazov": "Železničné múzeum",
+        "pesia_vzdialenost_m": 243.7
+      },
+      "start_zastavok_do_d_max": 35,
+      "ciel_zastavok_do_d_max": 12
+    },
+    {
+      "id": "S06-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.1872,
+        17.035666
+      ],
+      "ciel": [
+        48.159768,
+        17.088392
+      ],
+      "vzdusna_vzdialenost_m": 4958.9,
+      "start_najblizsia": {
+        "stop_id": "000000006800003",
+        "nazov": "Drobného",
+        "pesia_vzdialenost_m": 129.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000000400002",
+        "nazov": "Depo Hroboňova",
+        "pesia_vzdialenost_m": 191.8
+      },
+      "start_zastavok_do_d_max": 20,
+      "ciel_zastavok_do_d_max": 21
+    },
+    {
+      "id": "S06-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.1872,
+        17.035666
+      ],
+      "ciel": [
+        48.159768,
+        17.088392
+      ],
+      "vzdusna_vzdialenost_m": 4958.9,
+      "start_najblizsia": {
+        "stop_id": "000000006800003",
+        "nazov": "Drobného",
+        "pesia_vzdialenost_m": 129.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000000400002",
+        "nazov": "Depo Hroboňova",
+        "pesia_vzdialenost_m": 191.8
+      },
+      "start_zastavok_do_d_max": 20,
+      "ciel_zastavok_do_d_max": 21
+    },
+    {
+      "id": "S06-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.1872,
+        17.035666
+      ],
+      "ciel": [
+        48.159768,
+        17.088392
+      ],
+      "vzdusna_vzdialenost_m": 4958.9,
+      "start_najblizsia": {
+        "stop_id": "000000006800003",
+        "nazov": "Drobného",
+        "pesia_vzdialenost_m": 129.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000000400002",
+        "nazov": "Depo Hroboňova",
+        "pesia_vzdialenost_m": 191.8
+      },
+      "start_zastavok_do_d_max": 20,
+      "ciel_zastavok_do_d_max": 21
+    },
+    {
+      "id": "S07-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.099114,
+        17.106509
+      ],
+      "ciel": [
+        48.153155,
+        17.144494
+      ],
+      "vzdusna_vzdialenost_m": 6637.6,
+      "start_najblizsia": {
+        "stop_id": "000000049900002",
+        "nazov": "Znievska",
+        "pesia_vzdialenost_m": 221.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000022500004",
+        "nazov": "Mliekarenská",
+        "pesia_vzdialenost_m": 47.6
+      },
+      "start_zastavok_do_d_max": 23,
+      "ciel_zastavok_do_d_max": 17
+    },
+    {
+      "id": "S07-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.099114,
+        17.106509
+      ],
+      "ciel": [
+        48.153155,
+        17.144494
+      ],
+      "vzdusna_vzdialenost_m": 6637.6,
+      "start_najblizsia": {
+        "stop_id": "000000049900002",
+        "nazov": "Znievska",
+        "pesia_vzdialenost_m": 221.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000022500004",
+        "nazov": "Mliekarenská",
+        "pesia_vzdialenost_m": 47.6
+      },
+      "start_zastavok_do_d_max": 23,
+      "ciel_zastavok_do_d_max": 17
+    },
+    {
+      "id": "S07-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.099114,
+        17.106509
+      ],
+      "ciel": [
+        48.153155,
+        17.144494
+      ],
+      "vzdusna_vzdialenost_m": 6637.6,
+      "start_najblizsia": {
+        "stop_id": "000000049900002",
+        "nazov": "Znievska",
+        "pesia_vzdialenost_m": 221.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000022500004",
+        "nazov": "Mliekarenská",
+        "pesia_vzdialenost_m": 47.6
+      },
+      "start_zastavok_do_d_max": 23,
+      "ciel_zastavok_do_d_max": 17
+    },
+    {
+      "id": "S08-ut0730",
+      "skupina": "S",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.186451,
+        17.179082
+      ],
+      "ciel": [
+        48.142399,
+        17.171007
+      ],
+      "vzdusna_vzdialenost_m": 4934.8,
+      "start_najblizsia": {
+        "stop_id": "000000034100007",
+        "nazov": "Shopping Palace",
+        "pesia_vzdialenost_m": 280.2
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000051900001",
+        "nazov": "Stn. ÚNS",
+        "pesia_vzdialenost_m": 139.1
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 6
+    },
+    {
+      "id": "S08-ut1300",
+      "skupina": "S",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.186451,
+        17.179082
+      ],
+      "ciel": [
+        48.142399,
+        17.171007
+      ],
+      "vzdusna_vzdialenost_m": 4934.8,
+      "start_najblizsia": {
+        "stop_id": "000000034100007",
+        "nazov": "Shopping Palace",
+        "pesia_vzdialenost_m": 280.2
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000051900001",
+        "nazov": "Stn. ÚNS",
+        "pesia_vzdialenost_m": 139.1
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 6
+    },
+    {
+      "id": "S08-so2200",
+      "skupina": "S",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.186451,
+        17.179082
+      ],
+      "ciel": [
+        48.142399,
+        17.171007
+      ],
+      "vzdusna_vzdialenost_m": 4934.8,
+      "start_najblizsia": {
+        "stop_id": "000000034100007",
+        "nazov": "Shopping Palace",
+        "pesia_vzdialenost_m": 280.2
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000051900001",
+        "nazov": "Stn. ÚNS",
+        "pesia_vzdialenost_m": 139.1
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 6
+    },
+    {
+      "id": "D01-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.100967,
+        17.115146
+      ],
+      "ciel": [
+        48.228415,
+        16.981065
+      ],
+      "vzdusna_vzdialenost_m": 17312.5,
+      "start_najblizsia": {
+        "stop_id": "000000025300001",
+        "nazov": "Nemocnica Antolská",
+        "pesia_vzdialenost_m": 39.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000055400001",
+        "nazov": "Paulinské",
+        "pesia_vzdialenost_m": 108.6
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "D01-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.100967,
+        17.115146
+      ],
+      "ciel": [
+        48.228415,
+        16.981065
+      ],
+      "vzdusna_vzdialenost_m": 17312.5,
+      "start_najblizsia": {
+        "stop_id": "000000025300001",
+        "nazov": "Nemocnica Antolská",
+        "pesia_vzdialenost_m": 39.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000055400001",
+        "nazov": "Paulinské",
+        "pesia_vzdialenost_m": 108.6
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "D01-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.100967,
+        17.115146
+      ],
+      "ciel": [
+        48.228415,
+        16.981065
+      ],
+      "vzdusna_vzdialenost_m": 17312.5,
+      "start_najblizsia": {
+        "stop_id": "000000025300001",
+        "nazov": "Nemocnica Antolská",
+        "pesia_vzdialenost_m": 39.8
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000055400001",
+        "nazov": "Paulinské",
+        "pesia_vzdialenost_m": 108.6
+      },
+      "start_zastavok_do_d_max": 14,
+      "ciel_zastavok_do_d_max": 8
+    },
+    {
+      "id": "D02-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.207152,
+        16.964152
+      ],
+      "ciel": [
+        48.125771,
+        17.10239
+      ],
+      "vzdusna_vzdialenost_m": 13674.6,
+      "start_najblizsia": {
+        "stop_id": "000000023700004",
+        "nazov": "Pri Sandbergu",
+        "pesia_vzdialenost_m": 678.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000061900001",
+        "nazov": "Gercenova",
+        "pesia_vzdialenost_m": 290.4
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 14
+    },
+    {
+      "id": "D02-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.207152,
+        16.964152
+      ],
+      "ciel": [
+        48.125771,
+        17.10239
+      ],
+      "vzdusna_vzdialenost_m": 13674.6,
+      "start_najblizsia": {
+        "stop_id": "000000023700004",
+        "nazov": "Pri Sandbergu",
+        "pesia_vzdialenost_m": 678.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000061900001",
+        "nazov": "Gercenova",
+        "pesia_vzdialenost_m": 290.4
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 14
+    },
+    {
+      "id": "D02-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.207152,
+        16.964152
+      ],
+      "ciel": [
+        48.125771,
+        17.10239
+      ],
+      "vzdusna_vzdialenost_m": 13674.6,
+      "start_najblizsia": {
+        "stop_id": "000000023700004",
+        "nazov": "Pri Sandbergu",
+        "pesia_vzdialenost_m": 678.4
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000061900001",
+        "nazov": "Gercenova",
+        "pesia_vzdialenost_m": 290.4
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 14
+    },
+    {
+      "id": "D03-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.165061,
+        17.163133
+      ],
+      "ciel": [
+        48.100614,
+        17.125051
+      ],
+      "vzdusna_vzdialenost_m": 7703.3,
+      "start_najblizsia": {
+        "stop_id": "000000003400001",
+        "nazov": "Clementisova",
+        "pesia_vzdialenost_m": 132.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000006100001",
+        "nazov": "Depo Petržalka",
+        "pesia_vzdialenost_m": 236.7
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "D03-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.165061,
+        17.163133
+      ],
+      "ciel": [
+        48.100614,
+        17.125051
+      ],
+      "vzdusna_vzdialenost_m": 7703.3,
+      "start_najblizsia": {
+        "stop_id": "000000003400001",
+        "nazov": "Clementisova",
+        "pesia_vzdialenost_m": 132.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000006100001",
+        "nazov": "Depo Petržalka",
+        "pesia_vzdialenost_m": 236.7
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "D03-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.165061,
+        17.163133
+      ],
+      "ciel": [
+        48.100614,
+        17.125051
+      ],
+      "vzdusna_vzdialenost_m": 7703.3,
+      "start_najblizsia": {
+        "stop_id": "000000003400001",
+        "nazov": "Clementisova",
+        "pesia_vzdialenost_m": 132.3
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000006100001",
+        "nazov": "Depo Petržalka",
+        "pesia_vzdialenost_m": 236.7
+      },
+      "start_zastavok_do_d_max": 15,
+      "ciel_zastavok_do_d_max": 7
+    },
+    {
+      "id": "D04-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.12642,
+        17.118566
+      ],
+      "ciel": [
+        48.029003,
+        17.2352
+      ],
+      "vzdusna_vzdialenost_m": 13871.5,
+      "start_najblizsia": {
+        "stop_id": "000000007900004",
+        "nazov": "Farského",
+        "pesia_vzdialenost_m": 198.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056800002",
+        "nazov": "Areál vod. športov",
+        "pesia_vzdialenost_m": 695.8
+      },
+      "start_zastavok_do_d_max": 26,
+      "ciel_zastavok_do_d_max": 4
+    },
+    {
+      "id": "D04-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.12642,
+        17.118566
+      ],
+      "ciel": [
+        48.029003,
+        17.2352
+      ],
+      "vzdusna_vzdialenost_m": 13871.5,
+      "start_najblizsia": {
+        "stop_id": "000000007900004",
+        "nazov": "Farského",
+        "pesia_vzdialenost_m": 198.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056800002",
+        "nazov": "Areál vod. športov",
+        "pesia_vzdialenost_m": 695.8
+      },
+      "start_zastavok_do_d_max": 26,
+      "ciel_zastavok_do_d_max": 4
+    },
+    {
+      "id": "D04-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.12642,
+        17.118566
+      ],
+      "ciel": [
+        48.029003,
+        17.2352
+      ],
+      "vzdusna_vzdialenost_m": 13871.5,
+      "start_najblizsia": {
+        "stop_id": "000000007900004",
+        "nazov": "Farského",
+        "pesia_vzdialenost_m": 198.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000056800002",
+        "nazov": "Areál vod. športov",
+        "pesia_vzdialenost_m": 695.8
+      },
+      "start_zastavok_do_d_max": 26,
+      "ciel_zastavok_do_d_max": 4
+    },
+    {
+      "id": "D05-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.180197,
+        17.070477
+      ],
+      "ciel": [
+        48.062703,
+        17.139789
+      ],
+      "vzdusna_vzdialenost_m": 14041.3,
+      "start_najblizsia": {
+        "stop_id": "000000015000002",
+        "nazov": "Klepáč",
+        "pesia_vzdialenost_m": 401.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000016100001",
+        "nazov": "Kovácsova",
+        "pesia_vzdialenost_m": 697.9
+      },
+      "start_zastavok_do_d_max": 6,
+      "ciel_zastavok_do_d_max": 2
+    },
+    {
+      "id": "D05-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.180197,
+        17.070477
+      ],
+      "ciel": [
+        48.062703,
+        17.139789
+      ],
+      "vzdusna_vzdialenost_m": 14041.3,
+      "start_najblizsia": {
+        "stop_id": "000000015000002",
+        "nazov": "Klepáč",
+        "pesia_vzdialenost_m": 401.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000016100001",
+        "nazov": "Kovácsova",
+        "pesia_vzdialenost_m": 697.9
+      },
+      "start_zastavok_do_d_max": 6,
+      "ciel_zastavok_do_d_max": 2
+    },
+    {
+      "id": "D05-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.180197,
+        17.070477
+      ],
+      "ciel": [
+        48.062703,
+        17.139789
+      ],
+      "vzdusna_vzdialenost_m": 14041.3,
+      "start_najblizsia": {
+        "stop_id": "000000015000002",
+        "nazov": "Klepáč",
+        "pesia_vzdialenost_m": 401.7
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000016100001",
+        "nazov": "Kovácsova",
+        "pesia_vzdialenost_m": 697.9
+      },
+      "start_zastavok_do_d_max": 6,
+      "ciel_zastavok_do_d_max": 2
+    },
+    {
+      "id": "D06-ut0730",
+      "skupina": "D",
+      "cas": "ut0730",
+      "datum": "2026-11-24",
+      "cas_odchodu": 27000,
+      "cas_odchodu_hhmm": "07:30",
+      "start": [
+        48.204314,
+        17.044604
+      ],
+      "ciel": [
+        48.156426,
+        17.139531
+      ],
+      "vzdusna_vzdialenost_m": 8825.6,
+      "start_najblizsia": {
+        "stop_id": "000000030900001",
+        "nazov": "Pri krematóriu",
+        "pesia_vzdialenost_m": 638.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023400003",
+        "nazov": "Líščie nivy",
+        "pesia_vzdialenost_m": 147.6
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 30
+    },
+    {
+      "id": "D06-ut1300",
+      "skupina": "D",
+      "cas": "ut1300",
+      "datum": "2026-11-24",
+      "cas_odchodu": 46800,
+      "cas_odchodu_hhmm": "13:00",
+      "start": [
+        48.204314,
+        17.044604
+      ],
+      "ciel": [
+        48.156426,
+        17.139531
+      ],
+      "vzdusna_vzdialenost_m": 8825.6,
+      "start_najblizsia": {
+        "stop_id": "000000030900001",
+        "nazov": "Pri krematóriu",
+        "pesia_vzdialenost_m": 638.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023400003",
+        "nazov": "Líščie nivy",
+        "pesia_vzdialenost_m": 147.6
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 30
+    },
+    {
+      "id": "D06-so2200",
+      "skupina": "D",
+      "cas": "so2200",
+      "datum": "2026-11-28",
+      "cas_odchodu": 79200,
+      "cas_odchodu_hhmm": "22:00",
+      "start": [
+        48.204314,
+        17.044604
+      ],
+      "ciel": [
+        48.156426,
+        17.139531
+      ],
+      "vzdusna_vzdialenost_m": 8825.6,
+      "start_najblizsia": {
+        "stop_id": "000000030900001",
+        "nazov": "Pri krematóriu",
+        "pesia_vzdialenost_m": 638.5
+      },
+      "ciel_najblizsia": {
+        "stop_id": "000000023400003",
+        "nazov": "Líščie nivy",
+        "pesia_vzdialenost_m": 147.6
+      },
+      "start_zastavok_do_d_max": 3,
+      "ciel_zastavok_do_d_max": 30
+    }
+  ]
+}
