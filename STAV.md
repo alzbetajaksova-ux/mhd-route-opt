@@ -30,13 +30,28 @@ Dôležité pre B a C:
 - Užitočné aj mimo kontraktu: `cp.aktivne_sluzby(datum)`, `cp.pocty()`, `cp.je_zastavka(stop_id)`.
 - Kandidát s neznámou linkou alebo zastávkou nespadne – vráti sa nedekódovateľný (`O2`).
 
-## Osoba B – inštancie a baseline
+## Osoba B – inštancie a baseline ✅ hotové
 
-| súbor | stav |
-|---|---|
-| `src/mhd/instances.py`, `scripts/make_instances.py`, `data/instances.json` | ⏳ |
-| `src/mhd/baselines/random_search.py`, `greedy.py` | ⏳ |
-| `scripts/run_baselines.py`, `results/baselines.csv` | ⏳ |
+| súbor | stav | poznámka |
+|---|---|---|
+| `src/mhd/instances.py`, `scripts/make_instances.py`, `data/instances.json` | ✅ | 60 inštancií, seed 42; `nacitaj_instancie(cesta)` |
+| `src/mhd/baselines/random_search.py`, `greedy.py` | ✅ | `nahodny_kandidat`, `nahodne_hladanie`, `greedy` |
+| `tests/test_instances.py`, `tests/test_baselines.py` | ✅ | `pytest` prechádza (64 testov) |
+| `scripts/run_baselines.py`, `results/baselines.csv`, `baselines_summary.md`, `baselines_box.png` | ✅ | 600 120 vyhodnotení, ~2 min |
+| `README.md` | ✅ | sekcie `demo_examples.py` a `bench_eval.py` doplní C |
+| `report/kap3_instancie.md`, `kap5_baseline.md`, `kap6_vysledky.md` | ✅ | texty pre C |
+
+Dôležité pre C:
+
+- `nahodny_kandidat(cp, p, par, rng, pamat=None)` – vždy spĺňa O2, ≤ 4 úseky;
+  pri opakovaných volaniach na tej istej požiadavke podaj `Pamat(cp, p)` (zrýchlenie).
+- `nahodne_hladanie` vracia `VysledokHladania` s počtami prípustných /
+  neprípustných / nedekódovateľných kandidátov a `porusenia` (Counter).
+- `greedy(hod, cp, p, par)` vracia `(VysledokHladania, počet volaní najblizsi_odchod)`.
+- Na reálnych dátach je ~67 % náhodných kandidátov nedekódovateľných (O3) –
+  hlavne nočné a zriedkavé linky, ktoré v daný deň premávajú, ale nie v časovom okne.
+- Skripty volajú `sys.stdout.reconfigure(encoding="utf-8")` – inak vo Windows
+  konzole pri presmerovaní výstupu padá výpis s diakritikou.
 
 ## Osoba C – overenie a správa
 
