@@ -165,7 +165,7 @@ def main() -> None:
 
     out = Path(args.vystup)
     out.mkdir(parents=True, exist_ok=True)
-    (out / "demo_examples.md").write_text("\n".join(md), encoding="utf-8")
+    (out / "demo_examples.md").write_text("\n".join(md) + "\n", encoding="utf-8", newline="\n")
     print(f"\nUložené: {out / 'demo_examples.md'}")
 
 

@@ -51,9 +51,10 @@ f = ∞ min, g = ∞ min, prestupy = 0, chôdza = 0 m, porušenia = ['O2'], prí
 
 | trasa | úsek | odchod vypočítaný | odchod z poriadku | príchod vypočítaný | príchod z poriadku | chôdza vypočítaná [m] | chôdza z mapy [m] | f / g [min] | porušenia |
 |---|---|---|---|---|---|---|---|---|---|
-| (a) | 93 Hlavná stanica → Jiráskova | 07:30 | | 07:43 | | 0 | | 13,00 / 13,00 | – |
-| (b) | 93 Hlavná stanica → Zochova | 07:30 | | 07:35 | | 0 | | 19,00 / 19,00 | – |
-| (b) | 31 Zochova → Lanfranconi | 07:38 | | 07:44 | | 0 | | 19,00 / 19,00 | – |
+| (a) | 93 Hlavná stanica → Jiráskova | 07:30:00 | | 07:43:00 | | 0 | | 13,00 / 13,00 | – |
+| (b) | 93 Hlavná stanica → Zochova | 07:30:00 | | 07:35:00 | | 0 | | 19,00 / 19,00 | – |
+| (b) | 31 Zochova → Lanfranconi | 07:38:45 | | 07:44:00 | | 0 | | 19,00 / 19,00 | – |
 | (c) | iba pešo | – | | – | | 461 | | 5,92 / 5,92 | – |
-| (d) | 93 Hodžovo nám. → Jiráskova | 07:50 | | 07:59 | | 1404 | | 29,00 / 229,00 | O1 |
+| (d) | 93 Hodžovo nám. → Jiráskova | 07:50:00 | | 07:59:00 | | 1404 | | 29,00 / 229,00 | O1 |
 | (e) | spoj neexistuje | – | | – | | – | | ∞ / ∞ | O2 |
+
