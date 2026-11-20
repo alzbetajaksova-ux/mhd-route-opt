@@ -44,13 +44,52 @@ bez neho sa graf iba preskočí.
 | `python scripts/check_model.py` | načíta GTFS, ohodnotí jednu ručnú trasu, zmeria vyhodnotenie | `data/cache/*.pkl` | ~5 s prvýkrát |
 | `python scripts/make_instances.py` | 60 inštancií (seed 42) | `data/instances.json` | ~5 s |
 | `python scripts/run_baselines.py` | greedy + náhodné hľadanie (seedy 0–9, rozpočet 1 000) na všetkých inštanciách | `results/baselines.csv`, `results/baselines_summary.md`, `results/baselines_box.png` | ~2–3 min |
-| `python scripts/demo_examples.py` | *doplní C* | | |
-| `python scripts/bench_eval.py` | *doplní C* | | |
+| `python scripts/demo_examples.py` | 5 overených trás na reálnych dátach (ut 24. 11. 2026, 7:30) | `results/demo_examples.md` | ~1 s |
+| `python scripts/bench_eval.py` | meranie: načítanie GTFS, čas `ohodnot` na 10 000 náhodných kandidátoch, podiel prípustných, operátory okolia | `results/bench.md` | ~15 s |
 
 Užitočné prepínače `run_baselines.py`: `--seedy 2 --rozpocet 200` (rýchla skúška),
 `--iba-suhrn` (prepočíta súhrn a graf z existujúceho CSV), `--vystup DIR`.
 `make_instances.py` má `--seed`. Všetky skripty majú pevný seed, takže
 opakované spustenie dá rovnaké výsledky (okrem nameraných časov behu).
+
+### Overené príklady – `scripts/demo_examples.py`
+
+Ohodnotí päť ručne zostavených kandidátov v utorok 24. 11. 2026 s odchodom o 7:30:
+(a) priama trasa 93 Hlavná stanica → Jiráskova, (b) trasa s 1 prestupom
+93 Hlavná stanica → Zochova, 31 Zochova → Lanfranconi, (c) iba pešo
+Hodžovo nám. → Zochova, (d) neprípustná trasa (nástup 1,4 km od štartu, O1) a
+(e) nedekódovateľná trasa (linka 93 v opačnom smere, O2). Pre každú vypíše itinerár
+s názvami zastávok, časmi, linkami a metrami chôdze, potom f, g a porušenia. Na konci
+vypíše tabuľku „vypočítané vs. z cestovného poriadku“, ktorej prázdne stĺpce sa
+vypĺňajú ručne podľa dpb.sk / imhd.sk. Výstup uloží aj do `results/demo_examples.md`.
+Prepínače: `--gtfs DIR`, `--vystup DIR`.
+
+### Meranie – `scripts/bench_eval.py`
+
+Zmeria čas načítania GTFS z CSV a z cache, priemerný čas jedného `Hodnotitel.ohodnot`
+na 10 000 kandidátoch z `nahodny_kandidat` (striedavo na všetkých inštanciách),
+podiel prípustných, neprípustných a nedekódovateľných kandidátov a početnosť
+porušení. Pre operátory okolia zmeria podiel volaní, ktoré vrátia None, ich čas a
+podiel dekódovateľných, prípustných a zlepšujúcich susedov a overí, že žiadny sused
+neporušuje O2. Výsledky uloží do `results/bench.md`. Prepínače:
+`--pocet 10000` (počet kandidátov), `--pocet-op 2000` (na koľkých sa skúšajú
+operátory), `--seed 0`, `--vystup FILE`. Časy závisia od počítača; ostatné čísla sú
+pri rovnakom seede rovnaké.
+
+### Operátory okolia – `src/mhd/neighborhood.py`
+
+```python
+import random
+from mhd.neighborhood import OPERATORY, nahodny_sused, susedia
+
+rng = random.Random(0)
+s = nahodny_sused(k, p, cp, par, rng)         # jeden sused alebo None
+vzorka = susedia(k, p, cp, par, rng, limit=10)  # najviac 10 rôznych susedov
+```
+
+Operátory `zmen_nastup`, `zmen_vystup`, `posun_prestupu`, `vymen_linku`,
+`pridaj_prestup`, `odober_prestup` majú tvar `op(k, p, cp, par, rng) -> Kandidat | None`.
+Vrátený sused vždy spĺňa O2 a má najviac 4 úseky; pôvodný kandidát sa nemení.
 
 ### Stĺpce `results/baselines.csv`
 
