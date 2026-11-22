@@ -62,10 +62,12 @@ def test_scenare(cp, hod, nazov):
 def test_itinerar_prestupu(cp, hod):
     k = Kandidat([Usek("2", "02", "07"), Usek("3", "06", "01")])
     h = hod.ohodnot(k, poziadavka(cp, "02", "01", PO, 25200))
+    # štart aj cieľ sú priamo na zastávke -> nulová chôdza sa do itinerára nezapíše
     assert [c.typ for c in h.itinerar] == [
-        "chodza", "cakanie", "jazda", "chodza", "cakanie", "jazda", "chodza"
+        "cakanie", "jazda", "chodza", "cakanie", "jazda"
     ]
-    assert h.itinerar[2].trip_id == "2_0_0705" and h.itinerar[5].trip_id == "3_0_0725"
+    assert h.itinerar[1].trip_id == "2_0_0705" and h.itinerar[4].trip_id == "3_0_0725"
+    assert h.itinerar[0].cas_od == 25200 and h.itinerar[-1].cas_do == 25200 + 1860
     assert h.prestupy == 1 and h.celkovy_cas_s == 1860
     assert h.chodza_m == pytest.approx(221.54, abs=0.01)
     # časti nadväzujú

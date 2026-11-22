@@ -94,7 +94,7 @@ class Hodnotitel:
                 if d > par.d_prestup and "O5" not in porusenia:
                     porusenia.append("O5")
                 od = predosla
-            if s > 0 or od == "start":
+            if s > 0:  # nulovú chôdzu (štart/cieľ priamo na zastávke) nevypisujeme
                 itinerar.append(CastTrasy("chodza", od, u.nastup, t, t + s, vzdialenost_m=d))
             chodza_m += d
             t += s
@@ -120,7 +120,8 @@ class Hodnotitel:
         d, s = self._chodza(cp.suradnice(predosla), p.ciel)
         if d > par.d_max and "O1" not in porusenia:
             porusenia.append("O1")
-        itinerar.append(CastTrasy("chodza", predosla, "ciel", t, t + s, vzdialenost_m=d))
+        if s > 0:
+            itinerar.append(CastTrasy("chodza", predosla, "ciel", t, t + s, vzdialenost_m=d))
         chodza_m += d
         t += s
 

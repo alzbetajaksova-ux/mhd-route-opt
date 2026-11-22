@@ -41,7 +41,8 @@ Identifikátory sa čítajú ako reťazce a časy sa prevedú na sekundy od poln
 v `calendar_dates.txt`. Indexy obsahujú zoradené odchody pre dvojicu (linka,
 zastávka), poradie zastávok každého spoja a zastávky dosiahnuteľné linkou v smere
 jazdy. Ukladajú sa do `data/cache/`. Zastávky v okolí bodu hľadá BallTree s
-haversinovou metrikou.
+haversinovou metrikou. Analýza z 1. fázy počítala so staršou verziou feedu
+(36 354 spojov), model používa novšiu verziu s 35 932 spojmi.
 
 **Kandidát a dekóder.** Kandidát je zoznam 0 – 4 úsekov (linka, nástup, výstup);
 [] znamená trasu iba pešo. `Hodnotitel.ohodnot` (`src/mhd/evaluate.py`) postupne
@@ -202,7 +203,7 @@ Pri rozpočte 1 000 vyhodnotení to je približne 25 generácií.
 1. MAGYAR, J. Moderné prístupy v optimalizácii: Úvod do optimalizácie [prednáška 1].
    Košice: TUKE, 2026.
 2. DOPRAVNÝ PODNIK BRATISLAVA, a. s. Cestovný poriadok MHD v Bratislave (GTFS) [online].
-   2026 [cit. 2026-10-31]. Dostupné na:
+   2026 [cit. 2026-11-14]. Dostupné na:
    https://data.bratislava.sk/datasets/aba12fd2cbac4843bc7406151bc66106/about
 3. DELLING, D., PAJOR, T., WERNECK, R. F. Round-Based Public Transit Routing.
    Transportation Science. 2015, 49(3), 591–604.

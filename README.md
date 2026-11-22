@@ -26,8 +26,8 @@ pip install -r requirements.txt
 ```
 
 `requirements.txt` nainštaluje aj samotný balík `mhd` (`pip install -e .`).
-Na boxplot vo výsledkoch je voliteľne potrebný `matplotlib` (`pip install matplotlib`);
-bez neho sa graf iba preskočí.
+Obsahuje aj `matplotlib` pre graf `results/baselines_box.png`; bez neho
+`run_baselines.py` graf iba preskočí.
 
 ## Dáta
 

@@ -8,6 +8,8 @@ zastávok, 35 932 spojov, 712 583 záznamov `stop_times`) súbory `stops`, `rout
 sekundy od polnoci prevádzkového dňa, hodnoty nad 24:00:00 sa ponechajú. Aktívne
 služby pre dátum sa určia z dňa v týždni a rozsahu platnosti v `calendar.txt` a
 výnimiek z `calendar_dates.txt` (1 = pridaná, 2 = zrušená) a kešujú sa podľa dátumu.
+Analýza z 1. fázy počítala so staršou verziou feedu (36 354 spojov), model používa
+novšiu verziu s 35 932 spojmi.
 Pri načítaní sa vytvoria indexy: pre dvojicu (linka, zastávka) zoradený zoznam
 odchodov (čas, spoj, poradie zastávky), pre spoj slovník zastávka → (poradie,
 príchod) a pre (linka, zastávka) a službu množina zastávok za ňou v smere jazdy.

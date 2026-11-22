@@ -38,7 +38,7 @@ Dôležité pre B a C:
 | `src/mhd/baselines/random_search.py`, `greedy.py` | ✅ | `nahodny_kandidat`, `nahodne_hladanie`, `greedy` |
 | `tests/test_instances.py`, `tests/test_baselines.py` | ✅ | `pytest` prechádza (64 testov) |
 | `scripts/run_baselines.py`, `results/baselines.csv`, `baselines_summary.md`, `baselines_box.png` | ✅ | 600 120 vyhodnotení, ~2 min |
-| `README.md` | ✅ | sekcie `demo_examples.py` a `bench_eval.py` doplní C |
+| `README.md` | ✅ | vrátane sekcií C (`demo_examples.py`, `bench_eval.py`) |
 | `report/kap3_instancie.md`, `kap5_baseline.md`, `kap6_vysledky.md` | ✅ | texty pre C |
 
 Dôležité pre C:
@@ -63,4 +63,4 @@ Dôležité pre C:
 | `report/kap4_overenie.md`, `report/kap7_metody.md` | ✅ | |
 | `report/sprava.md` | ✅ | zložená správa (8 kapitol) |
 | `README.md` – sekcie o skriptoch C | ✅ | |
-| finálne PDF vo Word šablóne | ⏳ | |
+| finálne PDF vo Word šablóne | ✅ | `report/sprava.docx`, `report/sprava.pdf` |
