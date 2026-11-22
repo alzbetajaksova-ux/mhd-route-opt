@@ -11,6 +11,38 @@ variant 1B. Pre štart, cieľ, dátum a čas odchodu hľadáme trasu MHD
 Fáza 2 obsahuje model problému (načítanie GTFS, dekóder, f a g), 60 inštancií
 a dve porovnávacie metódy (náhodné hľadanie a greedy).
 
+## Prehľad pre hodnotenie (odovzdávka 2)
+
+**Obsah odovzdávky:** tento repozitár (kód, dáta, výsledky) a dokument
+`Zadanie2_Odovzdavka2_Analyza_a_baseline.pdf` – opravená analýza z 1. fázy (kap. 1 – 4)
+doplnená o kapitolu 5 Implementácia modelu a overenie pomocou baseline. Priečinok
+`docs/interne/` obsahuje iba interné plány tímu a nie je súčasťou hodnotenia.
+
+| požiadavka zadania | kde v kóde | kde v správe | ako overiť |
+|---|---|---|---|
+| reprezentácia kandidátov | `src/mhd/model.py` (`Usek`, `Kandidat`) | kap. 4, 5.1 | `tests/test_kontrakt.py` |
+| cieľová a ohodnocovacia funkcia (f, g) | `src/mhd/evaluate.py` (`Hodnotitel.ohodnot`), parametre v `src/mhd/params.py` | kap. 1.3, 5.1 | `tests/test_evaluate.py` – f a g vypočítané ručne |
+| vyhodnotenie kandidáta (dekóder) | `src/mhd/evaluate.py`, `src/mhd/gtfs.py` | kap. 5.1 | `python scripts/check_model.py` |
+| kontrola obmedzení O1 – O6 | `src/mhd/evaluate.py` | kap. 1.4, 5.1 | `tests/test_evaluate.py` – scenár pre každé obmedzenie |
+| inštancie a postup ich vytvorenia | `src/mhd/instances.py`, `scripts/make_instances.py`, `data/instances.json` | kap. 5.2 | `python scripts/make_instances.py` vytvorí rovnaký súbor |
+| baseline, ktorá vytvára kandidátov | `src/mhd/baselines/random_search.py`, `greedy.py` | kap. 5.4 | `python scripts/run_baselines.py` |
+| narábanie s neprípustnými kandidátmi | tie isté súbory (porovnanie podľa g, príznak `pripustny`) | kap. 5.4 | `tests/test_baselines.py` |
+| príklady, že výsledky zodpovedajú formulácii | `scripts/demo_examples.py`, `results/demo_examples.md` | kap. 5.3 | 5 trás porovnaných s cestovným poriadkom na imhd.sk |
+| výsledky baseline | `results/baselines.csv`, `results/baselines_summary.md` | kap. 5.5 | `python scripts/run_baselines.py` |
+| aspoň dve ďalšie metódy | príprava: `src/mhd/neighborhood.py`, meranie `results/bench.md` | kap. 5.6 | `python scripts/bench_eval.py` |
+
+**Rýchla kontrola (asi 5 minút):** po inštalácii (nižšie) spustite
+
+```bash
+pytest                              # 115 passed
+python scripts/check_model.py       # 90 liniek, 1 375 zastávok, 35 932 spojov; jedna ohodnotená trasa
+python scripts/demo_examples.py     # 5 trás vrátane neprípustnej (O1) a nedekódovateľnej (O2)
+python scripts/run_baselines.py --seedy 2 --rozpocet 200 --vystup results/skuska   # rýchla skúška baseline
+```
+
+Úplný beh `python scripts/run_baselines.py` (asi 1–3 min) vytvorí presne tie isté
+čísla ako v `results/` a v kapitole 5.5 dokumentu; líšia sa iba namerané časy behu.
+
 ## Inštalácia
 
 Python 3.11 alebo novší.
