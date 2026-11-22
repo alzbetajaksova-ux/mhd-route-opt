@@ -86,15 +86,18 @@ v `results/demo_examples.md`):
 
 | trasa | kandidát | vypočítané | z cestovného poriadku | f / g [min] | porušenia |
 |---|---|---|---|---|---|
-| (a) priama | 93 Hlavná stanica → Jiráskova | 7:30:00 → 7:43:00 | [doplniť] | 13,00 / 13,00 | – |
-| (b) 1 prestup | 93 Hlavná st. → Zochova, 31 Zochova → Lanfranconi | 7:30 → 7:35; 31: 7:38:45 → 7:44:00 | [doplniť] | 19,00 / 19,00 | – |
-| (c) iba pešo | Hodžovo nám. → Zochova | 461 m, 5,92 min | [doplniť z mapy] | 5,92 / 5,92 | – |
-| (d) neprípustná | 93 z Hodžovho nám., štart pri Hl. stanici | chôdza 1 404 m; 7:50 → 7:59 | [doplniť] | 29,00 / 229,00 | O1 |
-| (e) nedekódovateľná | 93 Jiráskova → Hl. stanica proti smeru | spoj neexistuje | – | ∞ / ∞ | O2 |
+| (a) priama | 93 Hlavná stanica → Jiráskova | 7:30:00 → 7:43:00 | 7:30 → 7:43 | 13,00 / 13,00 | – |
+| (b) 1 prestup | 93 Hlavná st. → Zochova, 31 Zochova → Lanfranconi | 7:30 → 7:35; 31: 7:38:45 → 7:44:00 | 7:30 → 7:35; 31: 7:38 → 7:44 | 19,00 / 19,00 | – |
+| (c) iba pešo | Hodžovo nám. → Zochova | 461 m (vzdušne 355 m) | vzdušne 350 m | 5,92 / 5,92 | – |
+| (d) neprípustná | 93 z Hodžovho nám., štart pri Hl. stanici | chôdza 1 404 m (vzdušne 1 080 m); 7:50 → 7:59 | vzdušne 1 050 m; 7:50 → 7:59 | 29,00 / 229,00 | O1 |
+| (e) nedekódovateľná | 93 Jiráskova → Hl. stanica proti smeru | spoj neexistuje | potvrdené | ∞ / ∞ | O2 |
 
-V (b) sa prestupuje na tom istom nástupišti, preto sa pripočíta iba τ. f = 14 min
-cesty + α = 5 min. V (d) je g = f + λ a kandidát ostáva porovnateľný, v (e) dekóder
-vráti g = ∞. [doplniť po ručnom overení na dpb.sk / imhd.sk.]
+Časy sa zhodujú s cestovným poriadkom na imhd.sk na minútu. Vzdušné vzdialenosti sa
+od merania na mape líšia najviac o 30 m. V (b) sa prestupuje na tom istom nástupišti,
+preto sa pripočíta iba τ; f = 14 min cesty + α = 5 min. V (d) je g = f + λ a kandidát
+ostáva porovnateľný, v (e) dekóder vráti g = ∞. Pešia trasa v (d) má po uliciach
+≈ 1 100 m, takže koeficient c = 1,3 je tu konzervatívny. O1 je však porušené aj pri
+skutočnej dĺžke trasy a cestujúci stihne ten istý spoj.
 
 ## 5 Baseline
 

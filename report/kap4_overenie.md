@@ -26,11 +26,11 @@ chôdza 0 m okrem prípadov (c) a (d).
 
 | trasa | kandidát | vypočítané | z cestovného poriadku | f / g [min] | porušenia |
 |---|---|---|---|---|---|
-| (a) priama | 93 Hlavná stanica → Jiráskova | odchod 7:30:00, príchod 7:43:00 | [doplniť z dpb.sk / imhd.sk] | 13,00 / 13,00 | – |
-| (b) 1 prestup | 93 Hlavná stanica → Zochova, 31 Zochova → Lanfranconi | 93: 7:30:00 → 7:35:00; čakanie 3,75 min (vrátane τ); 31: 7:38:45 → 7:44:00 | [doplniť] | 19,00 / 19,00 | – |
-| (c) iba pešo | Hodžovo nám. → Zochova | 461 m, 5,92 min | [doplniť: vzdialenosť z mapy] | 5,92 / 5,92 | – |
-| (d) neprípustná | štart pri Hlavnej stanici, 93 až z Hodžovho nám. → Jiráskova | chôdza 1 404 m (> 800 m); 93: 7:50:00 → 7:59:00 | [doplniť] | 29,00 / 229,00 | O1 |
-| (e) nedekódovateľná | 93 Jiráskova → Hlavná stanica z nástupišťa v smere do Petržalky | linka v tomto smere na Hlavnú stanicu nejde | – | ∞ / ∞ | O2 |
+| (a) priama | 93 Hlavná stanica → Jiráskova | odchod 7:30:00, príchod 7:43:00 | 7:30 → 7:43 | 13,00 / 13,00 | – |
+| (b) 1 prestup | 93 Hlavná stanica → Zochova, 31 Zochova → Lanfranconi | 93: 7:30:00 → 7:35:00; čakanie 3,75 min (vrátane τ); 31: 7:38:45 → 7:44:00 | 93: 7:30 → 7:35; 31: 7:38 → 7:44 | 19,00 / 19,00 | – |
+| (c) iba pešo | Hodžovo nám. → Zochova | 461 m (vzdušne 355 m), 5,92 min | vzdušne 350 m, pešo ≈ 5 min | 5,92 / 5,92 | – |
+| (d) neprípustná | štart pri Hlavnej stanici, 93 až z Hodžovho nám. → Jiráskova | chôdza 1 404 m (vzdušne 1 080 m, > 800 m); 93: 7:50:00 → 7:59:00 | vzdušne 1 050 m, pešia trasa ≈ 1 100 m / 15 min; 93: 7:50 → 7:59 | 29,00 / 229,00 | O1 |
+| (e) nedekódovateľná | 93 Jiráskova → Hlavná stanica z nástupišťa v smere do Petržalky | linka v tomto smere na Hlavnú stanicu nejde | potvrdené: Hlavná stanica je v smere do Petržalky prvá zastávka | ∞ / ∞ | O2 |
 
 Výsledky zodpovedajú formulácii. V prípade (b) je prestup na tom istom nástupišti,
 takže sa pripočíta iba τ = 60 s a cestujúci čaká na prvý spoj linky 31 po 7:36:00.
@@ -39,6 +39,14 @@ V prípade (d) je chôdza 1 404 m dlhšia ako d_max = 800 m, preto g = f + λ = 
 229 min. Kandidát ostáva dekódovateľný a porovnateľný. V prípade (e) dekóder nenájde
 spoj, lebo výstup neleží za nástupom v smere jazdy linky, a vráti f = g = ∞.
 
-[doplniť po ručnom overení: či sa časy odchodov a príchodov zhodujú s cestovným
-poriadkom linky 93 a 31 na dpb.sk / imhd.sk a či vzdialenosť v (c) zodpovedá meraniu
-na mape.]
+**Ručné overenie.** Časy sme porovnali s cestovným poriadkom liniek 93 a 31 na
+imhd.sk (pracovný deň) a vzdialenosti sme zmerali na mape. Všetky odchody a príchody
+sa zhodujú na minútu. Odchod linky 31 zo Zochovej má v GTFS čas 7:38:45, web ho
+zobrazuje ako 7:38. Vzdušné vzdialenosti sa od modelu líšia o 5 m pri (c) a o 30 m
+pri (d). Rozdiel vzniká tým, že bod zastávky na mape a v GTFS nie je ten istý. V prípade
+(d) je pešia trasa po uliciach ≈ 1 100 m, teda iba ≈ 1,05-násobok vzdušnej
+vzdialenosti. Koeficient zachádzky c = 1,3 je tu konzervatívny: model počíta s 18 min
+chôdze namiesto 15 min. Výsledok sa tým nemení. Aj skutočná trasa je dlhšia ako
+d_max = 800 m, takže O1 ostáva porušené, a cestujúci v oboch prípadoch stihne ten
+istý spoj o 7:50. Prípad (e) sme potvrdili: Hlavná stanica je v smere do Petržalky
+prvá zastávka linky 93.
