@@ -15,8 +15,9 @@ a dve porovnávacie metódy (náhodné hľadanie a greedy).
 
 **Obsah odovzdávky:** tento repozitár (kód, dáta, výsledky) a dokument
 `Zadanie2_Odovzdavka2_Analyza_a_baseline.pdf` – opravená analýza z 1. fázy (kap. 1 – 4)
-doplnená o kapitolu 5 Implementácia modelu a overenie pomocou baseline. Priečinok
-`docs/interne/` obsahuje iba interné plány tímu a nie je súčasťou hodnotenia.
+doplnená o kapitolu 5 Implementácia modelu a overenie pomocou baseline. Interné
+podklady tímu (`docs/interne/`, `report/`, `STAV.md`) sú iba v git repozitári a nie sú
+súčasťou odovzdávky ani hodnotenia.
 
 | požiadavka zadania | kde v kóde | kde v správe | ako overiť |
 |---|---|---|---|
@@ -174,5 +175,4 @@ src/mhd/
 scripts/                 check_model, make_instances, run_baselines, demo_examples, bench_eval
 tests/                   pytest; tests/data/toy_gtfs/ = malá testovacia sieť
 results/                 výsledky behov
-report/                  texty kapitol správy
 ```
