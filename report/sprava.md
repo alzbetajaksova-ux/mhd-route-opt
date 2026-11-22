@@ -5,7 +5,7 @@ Moderné prístupy v optimalizácii · Zadanie 2 – odovzdávka 2
 # Implementácia modelu a baseline pre optimalizáciu cesty MHD
 
 Variant 1B – Optimalizácia cesty MHD ·
-Riešitelia: [Meno Priezvisko A], [Meno Priezvisko B], [Meno Priezvisko C] ·
+Riešitelia: Alžbeta Jakšová, Adam Paľo, Martin Nový ·
 Vyučujúci: Ing. Ján Magyar, PhD.
 
 Pre štart o, cieľ d, dátum a čas odchodu t₀ hľadáme trasu MHD v Bratislave (0 – 4 jazdy
@@ -193,9 +193,9 @@ Pri rozpočte 1 000 vyhodnotení to je približne 25 generácií.
 
 | člen | práca |
 |---|---|
-| A – [meno] | kostra repozitára a kontrakt, testovacia sieť, načítanie GTFS a indexy, `geo.py` a priestorový index (prevzaté od B), dekóder a `ohodnot`, unit testy modelu, kapitola 2 |
-| B – [meno] | generátor 60 inštancií, náhodná a greedy baseline, behy na inštanciách a súhrnné tabuľky, README, kapitoly 3, 5, 6 |
-| C – [meno] | operátory okolia a ich testy, overené príklady na reálnych dátach, meranie modelu a operátorov, kapitoly 1, 4, 7 a 8, zloženie správy |
+| A – Alžbeta Jakšová | kostra repozitára a kontrakt, testovacia sieť, načítanie GTFS a indexy, `geo.py` a priestorový index (prevzaté od B), dekóder a `ohodnot`, unit testy modelu, kapitola 2 |
+| B – Adam Paľo | generátor 60 inštancií, náhodná a greedy baseline, behy na inštanciách a súhrnné tabuľky, README, kapitoly 3, 5, 6 |
+| C – Martin Nový | operátory okolia a ich testy, overené príklady na reálnych dátach, meranie modelu a operátorov, kapitoly 1, 4, 7 a 8, zloženie správy |
 
 ## Literatúra
 

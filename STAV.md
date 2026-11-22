@@ -61,6 +61,6 @@ Dôležité pre C:
 | `scripts/demo_examples.py`, `results/demo_examples.md` | ✅ | 5 trás, ručne overené na imhd.sk (zhoda na minútu) |
 | `scripts/bench_eval.py`, `results/bench.md` | ✅ | `ohodnot` ~36 µs, prípustných 7,2 %, najčastejšie O3 |
 | `report/kap4_overenie.md`, `report/kap7_metody.md` | ✅ | |
-| `report/sprava.md` | ✅ | zložená správa (8 kapitol); doplniť mená riešiteľov |
+| `report/sprava.md` | ✅ | zložená správa (8 kapitol) |
 | `README.md` – sekcie o skriptoch C | ✅ | |
 | finálne PDF vo Word šablóne | ⏳ | |
