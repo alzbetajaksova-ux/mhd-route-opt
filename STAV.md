@@ -63,4 +63,4 @@ Dôležité pre C:
 | `report/kap4_overenie.md`, `report/kap7_metody.md` | ✅ | |
 | `report/sprava.md` | ✅ | zložená správa (8 kapitol) |
 | `README.md` – sekcie o skriptoch C | ✅ | |
-| finálne PDF vo Word šablóne | ✅ | `report/sprava.docx`, `report/sprava.pdf` |
+| finálny dokument | ✅ | `Zadanie2_Odovzdavka2_Analyza_a_baseline.docx` / `.pdf` (analýza + kap. 5) |
